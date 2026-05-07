@@ -6,7 +6,7 @@ import ToggleTheme from "./ToggleTheme";
 const Navbar = ({ theme, setTheme }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   return (
-    <div className="flex items-center justify-between px-4 sm:px-12 lg:px-24 xl:px-40 py-4 sticky top-0 z-20  font-medium bg-white/50 dark:bg-gray-900/70">
+    <div className="flex items-center justify-between px-4 sm:px-12 lg:px-24 xl:px-40 py-4 sticky top-0 z-20   font-medium bg-white dark:bg-gray-900">
       <img
         src={theme === "light" ? assets.logo2 : assets.logo}
         className="w-24 h-10 sm:w-40  rounded-full text-white "

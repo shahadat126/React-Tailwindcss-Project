@@ -29,6 +29,7 @@ const Hero = () => {
       </p>
       <div className="relative">
         <img src={assets.logo2} alt="" className="w-full max-w-6xl" />
+        <img src={assets.bg_img} alt="" className="" />
         
       </div>
     </div>
